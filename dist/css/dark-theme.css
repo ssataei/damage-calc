@@ -153,10 +153,34 @@ label:not(.btn) {
 
 input.select2-input {
     color: var(--text);
-    /* 
+    /*
     * I have to use this URL because this CSS file is in the dist/css folder,
     * whereas the Select2 CSS file is right next to the select2.png file
     */
     background: url('../js/vendor/select2/select2.png') no-repeat 100% -22px, var(--background);
 }
 
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
